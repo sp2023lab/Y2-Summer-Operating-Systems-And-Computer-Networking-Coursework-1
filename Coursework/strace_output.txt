@@ -1,0 +1,20 @@
+execve("./task2", ["./task2"], 0x7ffc89a356b0 /* 62 vars */) = 0
+close(3)                                = 0
+close(3)                                = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7eae38fa10) = 3509013
+close(0)                                = 0
+dup(3)                                  = 0
+close(4)                                = 0
+execve("/usr/bin/grep", ["grep", "pattern"], 0x7ffeca84a178 /* 62 vars */) = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3509013, si_uid=142472, si_status=0, si_utime=0, si_stime=0} ---
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+close(4)                                = 0
+close(1)                                = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
